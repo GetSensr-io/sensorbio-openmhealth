@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "user_id": "user_123",
+    "date": "2026-02-01",
+    "start_time_ms": 1769904000000,
+    "end_time_ms": 1769932800000,
+    "total_sleep_minutes": 420,
+    "time_in_bed_minutes": 480,
+    "awake_minutes": 30,
+    "light_sleep_minutes": 240,
+    "deep_sleep_minutes": 120,
+    "rem_sleep_minutes": 60
+  },
+  "details_day": {
+    "user_id": "user_123",
+    "date": "2026-02-01",
+    "start_time_ms": 1769904000000,
+    "end_time_ms": 1769932800000,
+    "segments": [
+      { "start_time_ms": 1769904000000, "end_time_ms": 1769904600000, "stage": "in_bed" },
+      { "start_time_ms": 1769904600000, "end_time_ms": 1769908200000, "stage": "light" },
+      { "start_time_ms": 1769908200000, "end_time_ms": 1769911800000, "stage": "deep" },
+      { "start_time_ms": 1769911800000, "end_time_ms": 1769913600000, "stage": "awake" },
+      { "start_time_ms": 1769913600000, "end_time_ms": 1769917200000, "stage": "rem" }
+    ]
+  }
+}

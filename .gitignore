@@ -1,0 +1,39 @@
+# ---- general ----
+.DS_Store
+*.log
+*.swp
+*~
+
+# env files
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# ---- node ----
+node_modules/
+node/node_modules/
+node/dist/
+node/.tsup/
+node/.turbo/
+node/.cache/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*$py.class
+python/.venv/
+python/venv/
+python/.pytest_cache/
+python/.mypy_cache/
+python/.ruff_cache/
+python/.coverage
+python/htmlcov/
+python/dist/
+python/build/
+python/*.egg-info/
+python/**/*.egg-info/

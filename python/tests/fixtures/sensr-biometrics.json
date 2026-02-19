@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "id": "bio_1",
+      "user_id": "user_123",
+      "type": "heart_rate",
+      "timestamp_ms": 1708300800000,
+      "value": 62,
+      "unit": "bpm"
+    },
+    {
+      "id": "bio_2",
+      "user_id": "user_123",
+      "type": "spo2",
+      "timestamp_ms": 1708300860000,
+      "value": 0.975,
+      "unit": "fraction"
+    },
+    {
+      "id": "bio_3",
+      "user_id": "user_123",
+      "type": "respiration_rate",
+      "timestamp_ms": 1708300920000,
+      "value": 14,
+      "unit": "breaths/min"
+    },
+    {
+      "id": "bio_4",
+      "user_id": "user_123",
+      "type": "blood_pressure",
+      "timestamp_ms": 1708300980000,
+      "blood_pressure": { "systolic_mmhg": 118, "diastolic_mmhg": 76 }
+    },
+    {
+      "id": "bio_5",
+      "user_id": "user_123",
+      "type": "temperature",
+      "timestamp_ms": 1708301040000,
+      "value": 36.7,
+      "unit": "C"
+    },
+    {
+      "id": "bio_6",
+      "user_id": "user_123",
+      "type": "hrv",
+      "timestamp_ms": 1708301100000,
+      "hrv": { "rmssd_ms": 42.5 }
+    }
+  ],
+  "pagination": { "next_cursor": null }
+}

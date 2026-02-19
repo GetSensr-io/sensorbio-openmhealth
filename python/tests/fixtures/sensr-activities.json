@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "id": "act_1",
+      "user_id": "user_123",
+      "start_time_ms": 1769919000000,
+      "end_time_ms": 1769920800000,
+      "type": "running",
+      "name": "Morning Run",
+      "steps": 3200,
+      "distance_m": 3500,
+      "calories_kcal": 280
+    },
+    {
+      "id": "act_2",
+      "user_id": "user_123",
+      "start_time_ms": 1769924400000,
+      "end_time_ms": 1769926200000,
+      "type": "walking",
+      "name": "Walk",
+      "steps": 1800,
+      "distance_m": 1500,
+      "calories_kcal": 90
+    }
+  ],
+  "pagination": { "next_cursor": null }
+}
