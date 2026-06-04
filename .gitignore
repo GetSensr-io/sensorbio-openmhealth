@@ -37,3 +37,6 @@ python/dist/
 python/build/
 python/*.egg-info/
 python/**/*.egg-info/
+
+# Local agent worktrees / files
+.claude/
