@@ -34,6 +34,27 @@ updates:
       - dependency-name: "*"
         update-types: [version-update:semver-major]
 
+  # The Node converter under /node had no entry, so its security PRs arrived
+  # ungrouped (default "npm_and_yarn group") and it got no version updates.
+  - package-ecosystem: npm
+    directory: "/node"
+    schedule:
+      interval: monthly
+      day: "monday"
+      time: "06:00"
+    open-pull-requests-limit: 5
+    labels: [dependencies]
+    groups:
+      patch-and-minor:
+        applies-to: version-updates
+        update-types: [patch, minor]
+      security-fixes:
+        applies-to: security-updates
+        patterns: ["*"]
+    ignore:
+      - dependency-name: "*"
+        update-types: [version-update:semver-major]
+
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
